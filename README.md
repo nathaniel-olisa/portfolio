@@ -10,10 +10,10 @@
 ### Sentiment Analysis on Consumer Reviews
 - Conducted **sentiment analysis** on wireless speaker survey data to understand consumer preferences.  
 - Utilized **Python (NLTK, VADER, TextBlob)** for text analysis and classified sentiments as positive, neutral, or negative.  
-- Created visualizations in **Excel, Google Sheets and Tableau** to display sentiment trends.
+- Created visualizations in **Excel, Google Sheets, and Tableau** to display sentiment trends.
 
 ### 📊 Earnings Analysis of Financial Specialists by Undergraduate Major  
-- Conducted **regression analysis** on American Community Survey (ACS) data (2009–2013) to examine earnings disparities among financial specialists based on undergraduate major.  
+- Conducted **regression analysis** on American Community Survey (ACS) data (2009–2013) to examine earnings disparities among financial specialists based on undergraduate majors.  
 - Utilized **Ordinary Least Squares (OLS) regression** to estimate causal relationships while controlling for gender.  
 - Addressed **omitted variable bias (OVB)** by incorporating control variables to improve statistical accuracy.  
 - Compiled **descriptive statistics** to compare mean and median earnings across the 20 most common financial-sector majors.  
