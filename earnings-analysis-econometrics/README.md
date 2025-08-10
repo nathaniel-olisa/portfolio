@@ -45,6 +45,13 @@ Key takeaway: the raw difference suggests Economics majors earn more; including 
 
 ---
 
+## Figure: Mean Earnings by Major
+> Bar chart generated from the descriptive table above (values reproduced exactly as provided).
+
+<img src="outputs/mean_earnings_by_major.png" width="70%">
+
+---
+
 ## Models & Exact Regression Results (embedded)
 
 We estimate:
@@ -82,10 +89,3 @@ Your **original** classroom script is preserved in [`docs/Financial_Specialists_
 - **Regression Results (PDF):** [`docs/Regression_Results.pdf`](docs/Regression_Results.pdf)  
 - **Descriptive Table (CSV):** [`outputs/earnings_by_major_desc.csv`](outputs/earnings_by_major_desc.csv)  
 - **Figure — Mean Earnings by Major (PNG):** [`outputs/mean_earnings_by_major.png`](outputs/mean_earnings_by_major.png)
-
----
-
-## Figure: Mean Earnings by Major
-> Bar chart generated from the descriptive table above (values reproduced exactly as provided).
-
-<img src="outputs/mean_earnings_by_major.png" width="70%">
