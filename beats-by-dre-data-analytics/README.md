@@ -15,6 +15,14 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 - **Tools:** Python (pandas, nltk, TextBlob), Matplotlib/Seaborn, React/TS for dashboard  
 - **Tasks:** Cleaning, EDA, sentiment scoring (VADER/TextBlob), comparative analysis, storytelling
 
+## 2) Project Structure
+```
+/data           → Cleaned datasets & survey responses
+/notebooks      → Jupyter notebooks (EDA, sentiment, correlation)
+/visuals        → All generated charts & word clouds
+/dashboard      → Executive dashboard (React + TypeScript)
+/docs           → Presentation deck & text summary reports
+```
 ---
 
 ## What the Data Shows
