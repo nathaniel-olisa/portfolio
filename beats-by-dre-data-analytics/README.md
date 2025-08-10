@@ -15,7 +15,7 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 - **Tools:** Python (pandas, nltk, TextBlob), Matplotlib/Seaborn, React/TS for dashboard  
 - **Tasks:** Cleaning, EDA, sentiment scoring (VADER/TextBlob), comparative analysis, storytelling
 
-## 2) Project Structure
+## Project Structure
 ```
 /data           → Cleaned datasets & survey responses
 /notebooks      → Jupyter notebooks (EDA, sentiment, correlation)
@@ -68,7 +68,7 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 ## Deliverables
 
 ### **Live Dashboard**
-- [Beats Executive Dashboard]([https://your-link-here](https://claude.ai/public/artifacts/5c27cc3c-9b86-4e2a-97fb-1cff99c99343?fullscreen=false)
+- [Beats Executive Dashboard](https://claude.ai/public/artifacts/5c27cc3c-9b86-4e2a-97fb-1cff99c99343?fullscreen=false)
 
 ### **Notebooks**
 - [Amazon Reviews EDA](./amazon_reviews_eda.ipynb)
