@@ -44,6 +44,52 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 
 ---
 
+## Extra Visuals (Thumbnail Tour)
+
+### A. Review Text Insights
+<div>
+  <p><img src="./beats_extra_visuals_partC/wordcloud_reviews.png" width="250"><br/>
+  **All Reviews Word Cloud:** Dominant themes are *sound*, *earbud/speaker*, and *battery life*.</p>
+
+  <p><img src="./beats_extra_visuals_partC/wordcloud_positive_reviews.png" width="250"><br/>
+  **Positive Word Cloud:** Praise clusters around *sound quality*, *bass*, and *comfort/ease of use*.</p>
+
+  <p><img src="./beats_extra_visuals_partA/barplot_top_words_5star.png" width="250"><br/>
+  **Top Words in 5★ Reviews:** Confirms that *sound* and *quality* drive high ratings.</p>
+</div>
+
+### B. Brand & Model Analysis
+<div>
+  <p><img src="./beats_extra_visuals_partB/boxplot_ratings_by_model.png" width="250"><br/>
+  **Ratings by Model:** Spread shows which models deliver consistent satisfaction vs. volatility.</p>
+
+  <p><img src="./beats_extra_visuals_partB/boxplot_rating_by_brand.png" width="250"><br/>
+  **Ratings by Brand:** Highlights where Beats sits relative to JBL/Bose/Sony on experience consistency.</p>
+
+  <p><img src="./beats_extra_visuals_partB/countplot_reviews_per_model.png" width="250"><br/>
+  **Reviews per Model:** Identifies high-visibility models shaping overall brand perception.</p>
+</div>
+
+### C. Reviewer Behavior & Relationships
+<div>
+  <p><img src="./beats_extra_visuals_partB/scatter_helpful_vs_rating.png" width="250"><br/>
+  **Helpful vs. Rating:** Useful reviews aren’t always 5★ — detailed critical feedback gets traction.</p>
+
+  <p><img src="./beats_extra_visuals_partB/correlation_heatmap.png" width="250"><br/>
+  **Correlation Heatmap:** Longer reviews tend to earn more helpful votes; ratings are fairly independent.</p>
+
+  <p><img src="./beats_extra_visuals_partC/sentiment_histogram_alt.png" width="250"><br/>
+  **Polarity Distribution:** Reviews skew positive, but a negative tail marks actionable issues.</p>
+
+  <p><img src="./beats_extra_visuals_partC/polarity_vs_subjectivity.png" width="250"><br/>
+  **Polarity vs. Subjectivity:** Many opinions include objective details — good for product fixes.</p>
+
+  <p><img src="./beats_extra_visuals_partC/boxplot_rating_by_profile_id.png" width="250"><br/>
+  **Top Reviewers’ Ratings:** A few prolific reviewers show tighter (or harsher) scoring patterns.</p>
+</div>
+
+---
+
 ## Recommendations
 
 **Product**  
@@ -81,60 +127,3 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 - [Cleaned Wireless Speakers Survey](./Cleaned%20Wireless%20Speakers%20Survey%20(Responses)%20-%20First%2020%20Responses%20(1).csv)
 
 > To reproduce the full analysis locally, use the complete datasets. The notebook will run on the sample files for demonstration (subset) or on the full data for full fidelity.
----
-
-## Extra Visuals & Insights
-
-### **1. Review Text Insights**
-**Top Words in 5-Star Reviews**
-<img src="./beats_extra_visuals_partA/barplot_top_words_5star.png" width="250">
-Shows the most frequently mentioned words in 5-star reviews, highlighting “sound” and “quality” as key drivers of satisfaction.
-
-**Most Common Words in All Reviews**
-<img src="./beats_extra_visuals_partA/wordcloud_reviews.png" width="250">
-Word cloud illustrating common themes across all reviews, with emphasis on sound, earbuds, and battery life.
-
----
-
-### **2. Brand & Model Analysis**
-**Average Rating by Speaker Brand**
-<img src="./beats_extra_visuals_partB/lineplot_avg_rating_by_brand.png" width="250">
-Compares average product ratings across brands, revealing competitors that outperform or underperform Beats.
-
-**Number of Reviews per Speaker Model**
-<img src="./beats_extra_visuals_partB/countplot_reviews_per_model.png" width="250">
-Displays review volume by specific speaker models, helping identify market leaders.
-
-**Ratings by Speaker Model**
-<img src="./beats_extra_visuals_partB/boxplot_ratings_by_model.png" width="250">
-Visualizes rating spread for each model, showing consistency and variability in customer satisfaction.
-
-**Rating Distribution by Brand**
-<img src="./beats_extra_visuals_partB/boxplot_rating_by_brand.png" width="250">
-Highlights differences in customer experience across brands through rating spread.
-
----
-
-### **3. Reviewer Behavior**
-**Helpful Count vs. Rating**
-<img src="./beats_extra_visuals_partC/scatter_helpful_vs_rating.png" width="250">
-Analyzes whether highly-rated reviews are marked as more helpful.
-
-**Rating Distribution by Top 10 Reviewers**
-<img src="./beats_extra_visuals_partC/boxplot_rating_by_profile_id.png" width="250">
-Shows rating behavior of the top 10 most active reviewers.
-
-**Rating Distribution**
-<img src="./beats_extra_visuals_partC/histogram_rating_distribution.png" width="250">
-Reveals how ratings are distributed overall, with a spike in perfect scores.
-
-**Sentiment Category Counts**
-<img src="./beats_extra_visuals_partC/sentiment_category_count.png" width="250">
-Breakdown of reviews into positive, neutral, and negative sentiment categories.
-
----
-
-## Key Takeaways
-- **Sound quality** is the most significant factor influencing positive reviews.
-- Beats has strong competition from brands like Bose and JBL in average ratings.
-- Customer sentiment is overwhelmingly positive, though improvement opportunities exist in battery life and connectivity.
