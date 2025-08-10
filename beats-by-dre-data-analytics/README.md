@@ -60,8 +60,7 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 
 ## Deliverables
 - **Live Executive Dashboard:** 👉 [Open Dashboard](https://claude.ai/public/artifacts/5c27cc3c-9b86-4e2a-97fb-1cff99c99343?fullscreen=false)
-- **Notebook:** `amazon_reviews_eda.ipynb`  
-- **Deck:** `Consumer-Insights-Wireless-Speaker-Market (2).pptx`  
+- **Notebook:** `amazon_reviews_eda.ipynb`   
 - **Datasets (Samples in Repo):**
   - `Final_Speaker_Reviews_Visualized_part01.csv`
   - `Cleaned_Speaker_Reviews_EDA_part01.csv`
