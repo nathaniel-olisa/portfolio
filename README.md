@@ -39,11 +39,6 @@ I thrive at the intersection of **data storytelling** and **statistical rigor**,
 - Applied **Python** (pandas, nltk, vaderSentiment) for text processing and scoring.
 - Built visual dashboards and delivered recommendations for product and marketing teams.
 
-### 3️⃣ [Nonprofit Consulting with PwC](./nonprofit-consulting-pwc/README.md)
-- Conducted data-driven market research and operational analysis for nonprofit clients.
-- Designed Tableau dashboards and Excel KPI models for benchmarking.
-- Presented findings and strategies to executive stakeholders.
-
 ---
 
 ## 📬 Connect With Me  
