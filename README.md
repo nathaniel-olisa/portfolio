@@ -34,14 +34,10 @@ I thrive at the intersection of **data storytelling** and **statistical rigor**,
 - Used **OLS regression** and **auxiliary regression** in **R** to control for omitted variable bias.
 - Visualized trends and differences using `ggplot2` boxplots and summary statistics.
 
----
-
 ### 2️⃣ [Data Analytics Externship – Beats by Dre](./beats-by-dre-data-analytics/README.md)
 - Analyzed **4,000+ survey responses** and **5,000+ online reviews** for sentiment and feature analysis.
 - Applied **Python** (pandas, nltk, vaderSentiment) for text processing and scoring.
 - Built visual dashboards and delivered recommendations for product and marketing teams.
-
----
 
 ### 3️⃣ [Nonprofit Consulting with PwC](./nonprofit-consulting-pwc/README.md)
 - Conducted data-driven market research and operational analysis for nonprofit clients.
