@@ -1,69 +1,135 @@
-# 🎧 Data Analytics Externship – Beats by Dre
+# 🎧 Beats by Dre – Wireless Speaker Consumer Insights (Externship)
 
-## Overview
-Analyzed consumer sentiment from survey data and online product reviews to uncover trends in user satisfaction, product performance, and brand perception.
+**Role:** Data Analytics Extern (Consumer Insights)  
+**Scope:** Survey + Amazon review analysis → sentiment, feature insights, competitive positioning → business recommendations
 
-## Objectives
-- Extract actionable insights from customer feedback.
-- Identify product strengths and weaknesses through sentiment analysis.
-- Support product development and marketing strategy with data-driven recommendations.
+---
 
-## Tools & Libraries
-- **Language:** Python
-- **Libraries:** pandas, numpy, nltk, vaderSentiment, matplotlib, seaborn, wordcloud
-- **Techniques:** Data cleaning, EDA, sentiment analysis, topic exploration, visualization
+## 1) Executive Summary
 
-## Methodology
-### 1) Data Cleaning
-```python
-import pandas as pd
-df = pd.read_csv("customer_reviews.csv")
-df = df.dropna(subset=["review"])
-df["review"] = df["review"].str.strip()
-```
+I analyzed consumer feedback from a cleaned wireless speaker **survey (20 responses)** and **thousands of Amazon reviews** to understand what drives satisfaction/dissatisfaction and where Beats can differentiate. The evidence points to strong enthusiasm for **sound quality** and **value**, with recurring friction around **battery life, connectivity, and durability**. I translated these findings into concrete product and go-to-market recommendations.
 
-### 2) Sentiment Analysis
-```python
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-analyzer = SentimentIntensityAnalyzer()
-df["sentiment_score"] = df["review"].apply(lambda x: analyzer.polarity_scores(x)["compound"])
-```
+---
 
-### 3) Sentiment Categorization
-```python
-def label_sentiment(score):
-    if score >= 0.05:
-        return "Positive"
-    elif score <= -0.05:
-        return "Negative"
-    return "Neutral"
+## 2) Business Context
 
-df["sentiment_label"] = df["sentiment_score"].apply(label_sentiment)
-```
+The wireless speaker market is crowded (JBL, Bose, Sony, Anker). Beats has brand heat and design leadership, but consumers demand **capable + reliable** hardware at compelling price points. This project maps what customers actually say and how they behave—so product and marketing can act with confidence.
 
-### 4) Visualization
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
+---
 
-ax = sns.countplot(x="sentiment_label", data=df)
-ax.set_title("Sentiment Distribution")
-plt.savefig("sentiment_distribution.png", bbox_inches="tight")
-```
+## 3) Data Sources
 
-### 5) Insights (examples to tailor)
-- Positive sentiment dominated reviews; negative feedback emphasized battery life and comfort.
-- Word-clouds and keyword frequencies revealed recurring themes tied to specific product lines.
+- **Survey (cleaned):** `Cleaned  Wireless  Speakers Survey (Responses) - First 20 Responses (1).csv`  
+- **Amazon reviews (processed):** `Cleaned_Speaker_Reviews_EDA.csv`, `Final_Speaker_Reviews_Visualized.csv`  
+- **Notebook:** `amazon_reviews_eda.ipynb`  
+- **Executive dashboard:** `beats-executive-dashboard.tsx`  
+- **Deck:** `Consumer-Insights-Wireless-Speaker-Market (2).pptx`
 
-## Repo Structure
-```text
-/data                        # raw or processed reviews (remove PII)
-/notebooks                   # Jupyter notebooks
-/outputs                     # charts and artifacts
-README.md
-```
+> All files live in this folder so viewers can open them directly on GitHub.
 
-## Outputs (place your files/screens here)
-- 📊 `outputs/sentiment_distribution.png`
-- ☁ `outputs/wordcloud_positive.png`
-- ☁ `outputs/wordcloud_negative.png`
+---
+
+## 4) Data Cleaning & Preparation
+
+- Removed nulls/dupes, standardized brand/model names, normalized ratings, stripped HTML/emoji.
+- Engineered sentiment features (VADER/TextBlob), tokenized text, and prepared visual exports.
+
+---
+
+## 5) Exploratory Data Analysis (EDA)
+
+**Overall rating distribution (skews high, with a visible tail of friction):**
+<img src="histogram_rating_distribution.png" width="100%">
+
+**Review volume by model (where customers are talking most):**
+<img src="countplot_reviews_per_model.png" width="100%">
+
+**Ratings spread by brand & by model (consistency and outliers):**
+<img src="boxplot_rating_by_brand.png" width="100%">
+<img src="boxplot_ratings_by_model.png" width="100%">
+
+**Reviewer behavior patterns (variance across frequent profiles):**
+<img src="boxplot_rating_by_profile_id.png" width="100%">
+
+---
+
+## 6) Sentiment Analysis (NLP)
+
+I used **VADER** (categories) and **TextBlob** (polarity/subjectivity) to score review text.
+
+**Common language across all reviews (what people actually talk about):**
+<img src="wordcloud_reviews.png" width="100%">
+
+**Most frequent words within 5-star reviews (what delights customers):**
+<img src="barplot_top_words_5star.png" width="100%">
+
+**Sentiment category counts (positive dominates, but negatives flag real issues):**
+<img src="sentiment_category_count.png" width="100%">
+
+**Polarity distribution & relationship to subjectivity (many opinions contain actionable details):**
+<img src="sentiment_histogram_alt.png" width="100%">
+<img src="polarity_vs_subjectivity.png" width="100%">
+
+---
+
+## 7) Comparative & Correlation Insights
+
+**Average rating by brand (competitive posture over time/sets):**
+<img src="lineplot_avg_rating_by_brand.png" width="100%">
+
+**Attribute relationships (what moves with what):**
+<img src="correlation_heatmap.png" width="100%">
+
+**Engagement vs. score (helpful votes aren’t just “5-star cheerleading”):**
+<img src="scatter_helpful_vs_rating.png" width="100%">
+
+---
+
+## 8) What Customers Actually Say (Themes)
+
+- **Loved:** sound quality, bass, easy setup, portability, brand experience.  
+- **Pain points:** battery life (especially under heavy use), Bluetooth drop-offs, durability (scratches/knocks), perceived price/value gaps.  
+- **Channel behavior:** shoppers gravitate to **Amazon** and price-transparent retailers; D2C needs stronger value incentives.
+
+---
+
+## 9) Recommendations
+
+**Product**
+- Prioritize **battery optimization** and **connection stability**; ruggedize the enclosure (drop/water resistance).
+- Tiered lineup:
+  - **Entry ($79–$99):** “value-premium” play to win volume against JBL/Anker.
+  - **Core ($149–$179):** long battery, strong bass, IP rating; flagship sound.
+- Ship firmware telemetry to monitor connection/battery issues post-launch.
+
+**Marketing**
+- Lead with **sound quality + long battery**; position value clearly vs. JBL.
+- Leverage **Amazon presence** (A+ content, video, reviews program); focus electronics retail for displays.
+- Influencer/UGC emphasizing workouts, dorm/desk setups, and small-space sound.
+
+**CX/Support**
+- Proactive replacements for early defects; visible commitment to durability.
+- Setup guides for Bluetooth reliability across OS/device versions.
+
+---
+
+## 10) Deliverables
+
+- **Notebook (EDA & NLP):** `amazon_reviews_eda.ipynb`
+- **Executive dashboard (React + TypeScript):** `beats-executive-dashboard.tsx`
+- **Stakeholder deck (PPT):** `Consumer-Insights-Wireless-Speaker-Market (2).pptx`
+- **Datasets:**  
+  - `Final_Speaker_Reviews_Visualized.csv`  
+  - `Cleaned_Speaker_Reviews_EDA.csv`  
+  - `Cleaned  Wireless  Speakers Survey (Responses) - First 20 Responses (1).csv`
+
+---
+
+## Appendix — Additional Visuals
+
+**Additional sentiment & correlation exhibits:**
+<img src="wordcloud_positive_reviews.png" width="100%">
+<img src="sentiment_category_count.png" width="100%">
+<img src="correlation_heatmap.png" width="100%">
+
+
