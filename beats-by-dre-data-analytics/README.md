@@ -25,68 +25,62 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 ```
 ---
 
-## What the Data Shows
+## 📊 What the Data Shows
 
 **1) Ratings skew high, with a meaningful tail of friction**  
-<img src="histogram_rating_distribution.png" width="100%">
+<img src="histogram_rating_distribution.png" width="70%">  
+*Most customers leave 4–5 star ratings, suggesting overall satisfaction, but a noticeable cluster of low scores signals recurring issues that can’t be ignored.*
 
 **2) Where the conversation is happening (models with the most reviews)**  
-<img src="countplot_reviews_per_model.png" width="100%">
+<img src="countplot_reviews_per_model.png" width="70%">  
+*Certain models dominate the conversation, which means their performance and reputation heavily influence the brand’s public image.*
 
 **3) What delights customers (language inside 5-star reviews)**  
-<img src="barplot_top_words_5star.png" width="100%">
+<img src="barplot_top_words_5star.png" width="70%">  
+*In glowing reviews, “sound” and “quality” are the top recurring terms, reinforcing that audio performance is Beats’ strongest competitive edge.*
 
 **4) Positive sentiment dominates—but negatives flag real product issues**  
-<img src="sentiment_category_count.png" width="100%">
+<img src="sentiment_category_count.png" width="70%">  
+*While positive sentiment is the majority, neutral and negative categories highlight opportunities to address concerns like battery life and durability.*
 
 **5) Beats is competitive, but reliability/value win the category**  
-<img src="lineplot_avg_rating_by_brand.png" width="100%">
+<img src="lineplot_avg_rating_by_brand.png" width="70%">  
+*Beats’ average ratings are strong, but brands like Bose and JBL sometimes lead in perceived reliability and value, especially in mid-tier price ranges.*
 
 ---
 
-## Extra Visuals (Thumbnail Tour)
+## 📊 Extra Visuals – Deep Dive Insights
 
-### A. Review Text Insights
-<div>
-  <p><img src="./beats_extra_visuals_partC/wordcloud_reviews.png" width="250"><br/>
-  **All Reviews Word Cloud:** Dominant themes are *sound*, *earbud/speaker*, and *battery life*.</p>
+---
 
-  <p><img src="./beats_extra_visuals_partC/wordcloud_positive_reviews.png" width="250"><br/>
-  **Positive Word Cloud:** Praise clusters around *sound quality*, *bass*, and *comfort/ease of use*.</p>
+### Part A – Relationship Analysis  
+4. **Correlation Heatmap**  
+   <img src="beats_extra_visuals_partB/correlation_heatmap.png" width="250">  
+   *Visualizes correlations between review metrics, uncovering which factors tend to move together.*
 
-  <p><img src="./beats_extra_visuals_partA/barplot_top_words_5star.png" width="250"><br/>
-  **Top Words in 5★ Reviews:** Confirms that *sound* and *quality* drive high ratings.</p>
-</div>
+5. **Polarity vs Subjectivity**  
+   <img src="beats_extra_visuals_partB/polarity_vs_subjectivity.png" width="250">  
+   *Plots sentiment polarity against subjectivity, showing how emotional versus factual reviews tend to rate.*
 
-### B. Brand & Model Analysis
-<div>
-  <p><img src="./beats_extra_visuals_partB/boxplot_ratings_by_model.png" width="250"><br/>
-  **Ratings by Model:** Spread shows which models deliver consistent satisfaction vs. volatility.</p>
+6. **Helpful Count vs Rating**  
+   <img src="beats_extra_visuals_partB/scatter_helpful_vs_rating.png" width="250">  
+   *Examines whether high-rated reviews are also considered most helpful by other customers.*
 
-  <p><img src="./beats_extra_visuals_partB/boxplot_rating_by_brand.png" width="250"><br/>
-  **Ratings by Brand:** Highlights where Beats sits relative to JBL/Bose/Sony on experience consistency.</p>
+---
 
-  <p><img src="./beats_extra_visuals_partB/countplot_reviews_per_model.png" width="250"><br/>
-  **Reviews per Model:** Identifies high-visibility models shaping overall brand perception.</p>
-</div>
+### Part B – Sentiment & Keywords  
+7. **Sentiment Histogram (Alt)**  
+   <img src="beats_extra_visuals_partC/sentiment_histogram_alt.png" width="250">  
+   *Breaks down the distribution of positive, negative, and neutral sentiments in the reviews.*
 
-### C. Reviewer Behavior & Relationships
-<div>
-  <p><img src="./beats_extra_visuals_partB/scatter_helpful_vs_rating.png" width="250"><br/>
-  **Helpful vs. Rating:** Useful reviews aren’t always 5★ — detailed critical feedback gets traction.</p>
+8. **Positive Review Word Cloud**  
+   <img src="beats_extra_visuals_partC/wordcloud_positive_reviews.png" width="250">  
+   *Highlights the most common words in positive reviews, giving a quick glance at what customers love.*
 
-  <p><img src="./beats_extra_visuals_partB/correlation_heatmap.png" width="250"><br/>
-  **Correlation Heatmap:** Longer reviews tend to earn more helpful votes; ratings are fairly independent.</p>
+9. **All Reviews Word Cloud**  
+   <img src="beats_extra_visuals_partC/wordcloud_reviews.png" width="250">  
+   *A broad word cloud of all reviews, capturing the full spectrum of customer discussion topics.*
 
-  <p><img src="./beats_extra_visuals_partC/sentiment_histogram_alt.png" width="250"><br/>
-  **Polarity Distribution:** Reviews skew positive, but a negative tail marks actionable issues.</p>
-
-  <p><img src="./beats_extra_visuals_partC/polarity_vs_subjectivity.png" width="250"><br/>
-  **Polarity vs. Subjectivity:** Many opinions include objective details — good for product fixes.</p>
-
-  <p><img src="./beats_extra_visuals_partC/boxplot_rating_by_profile_id.png" width="250"><br/>
-  **Top Reviewers’ Ratings:** A few prolific reviewers show tighter (or harsher) scoring patterns.</p>
-</div>
 
 ---
 
