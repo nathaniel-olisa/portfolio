@@ -5,7 +5,7 @@
 
 ---
 
-## Summary (from the term paper)
+## Summary
 Using ACS microdata, I compare earnings among Financial Specialists across the 20 most common undergraduate majors. I first present **descriptive comparisons** (means/medians), then estimate OLS models:
 
 - **Short model:** `EARNINGS ~ ECON` (difference-in-means as a regression)  
@@ -89,10 +89,3 @@ Your **original** classroom script is preserved in [`docs/Financial_Specialists_
 > Bar chart generated from the descriptive table above (values reproduced exactly as provided).
 
 <img src="outputs/mean_earnings_by_major.png" width="70%">
-
----
-
-## How to Reproduce (locally)
-1. Place your `EarningsMajor.RData` in the project root.  
-2. Run `code/earnings_analysis_clean.R`.  
-3. Outputs will be written to `/outputs/`.
