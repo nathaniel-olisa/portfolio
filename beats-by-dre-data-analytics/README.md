@@ -117,7 +117,7 @@ Customers love **sound quality** and **value**; friction clusters around **batte
 
 ### **Datasets**
 - [Final Speaker Reviews Visualized](./Final_Speaker_Reviews_Visualized.csv)
-- [Cleaned Speaker Reviews EDA](./Cleaned_Speaker_Reviews_EDA.csv)
+- [Cleaned Speaker Reviews EDA](./Cleaned_Speaker_Reviews_EDA_part01.csv)
 - [Cleaned Wireless Speakers Survey](./Cleaned%20Wireless%20Speakers%20Survey%20(Responses)%20-%20First%2020%20Responses%20(1).csv)
 
 > To reproduce the full analysis locally, use the complete datasets. The notebook will run on the sample files for demonstration (subset) or on the full data for full fidelity.
