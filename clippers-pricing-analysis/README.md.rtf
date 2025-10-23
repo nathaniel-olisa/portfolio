@@ -1,0 +1,83 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww34000\viewh18960\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # \uc0\u55356 \u57280  Clippers Pricing & Attendance Analysis (2024\'9625 Season)\
+\
+**Tools:** MySQL \'95 Tableau \'95 Excel  \
+**Goal:** Evaluate how the LA Clippers\'92 ticket pricing, attendance, and game-day revenue compare to league benchmarks.\
+\
+---\
+\
+## \uc0\u55357 \u56522  Project Overview\
+\
+This project builds a **fully relational SQL database** using raw CSV data from the Clippers 2024\'9625 season, then connects it to Tableau for visual analysis.  \
+It provides insights into:\
+- Ticket sales performance and sell-through rates  \
+- Game attendance vs capacity trends  \
+- Resale market behavior  \
+- Ancillary revenue contributions (concessions, parking, merch)  \
+- League benchmark comparisons via a revenue index  \
+\
+All data is modeled, cleaned, and visualized to simulate a **real-world pricing analyst workflow**.\
+\
+---\
+\
+## \uc0\u55358 \u56817  Database Schema\
+\
+Created five core tables (all included below \uc0\u55357 \u56391 ):\
+\
+| Table | Description | File |\
+|-------|--------------|------|\
+| `game_info` | Game metadata (date, opponent, attendance, capacity) | [Games.csv](./Games.csv) |\
+| `ticket_inventory` | Ticket prices and sell-through by section | [Ticket_Inventory.csv](./Ticket_Inventory.csv) |\
+| `resale_data` | Average resale prices and volume | [Resale_Data.csv](./Resale_Data.csv) |\
+| `ancillary_revenue` | Revenue from concessions, merch, and parking | [Ancillary_Revenue.csv](./Ancillary_Revenue.csv) |\
+| `league_benchmarks` | League average prices, attendance, and revenue index | [League_Benchmarks.csv](./League_Benchmarks.csv) |\
+\
+\uc0\u55357 \u56536  SQL Build Script: [`clippers_pricing_model.sql`](./clippers_pricing_model.sql)  \
+\uc0\u55357 \u56535  Excel Source File: [`Clippers Pricing Model.xlsx`](./Clippers%20Pricing%20Model.xlsx)\
+\
+---\
+\
+## \uc0\u55358 \u56814  Tableau Dashboard\
+\
+\uc0\u55357 \u56393  [**View Interactive Dashboard on Tableau Public**](https://public.tableau.com/views/ClippersPricingAnalysisDashboard/ClippersTicketPricingAttendancePerformance202425?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)\
+\
+**Dashboard Views:**\
+1. **Attendance vs Capacity Fill Rate** \'96 measures fan turnout per opponent  \
+2. **Revenue by Game** \'96 combines ticket + ancillary revenue  \
+3. **League Comparison** \'96 shows Clippers performance relative to league benchmarks  \
+4. *(Optional)* Revenue Index reference chart for quick benchmarking  \
+\
+---\
+\
+## \uc0\u55357 \u56520  Key Findings\
+\
+- \uc0\u55357 \u57314  **Marquee games (Lakers, Warriors, Celtics)** outperform the league average by 10\'9620% in revenue index.  \
+- \uc0\u55357 \u56522  **Sell-through rate** exceeds 95% across both Lower and Upper Bowl sections \'97 indicating efficient pricing.  \
+- \uc0\u55357 \u56496  **Ancillary revenue** contributes roughly **35%** of total game-day earnings.  \
+- \uc0\u55358 \u56809  **Resale markets** confirm pricing elasticity \'97 premium games command strong secondary price lifts (up to +20%).  \
+- \uc0\u55356 \u57311 \u65039  Attendance remains stable across non-marquee opponents, suggesting solid baseline fan demand.\
+\
+---\
+\
+## \uc0\u55357 \u56481  Insights for Strategy\
+\
+- Optimize pricing tiers for high-demand opponents to capture resale value.  \
+- Leverage ancillary revenue streams in mid-tier matchups to maintain profitability.  \
+- Continue dynamic pricing and segmentation (section-based adjustments).  \
+\
+---\
+\
+## \uc0\u55358 \u56800  Skills Demonstrated\
+\
+**Data Modeling** \'95 **SQL Joins** \'95 **Data Cleaning** \'95 **Dashboard Design** \'95 **Business & Sports Analytics**\
+\
+---\
+\
+> \uc0\u55357 \u56513  *All source files, code, and Tableau links included for full project replication.*\
+}

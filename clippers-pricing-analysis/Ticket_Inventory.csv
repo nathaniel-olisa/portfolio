@@ -1,0 +1,21 @@
+Game_ID,Section,Ticket_Type,Avg_Price,Min_Price,Max_Price,Units_Released,Units_Sold,Sell_Through_%
+1,Lower Bowl,Single Game,200,160,300,4317,4090,94.7
+1,Upper Bowl,Single Game,80,64,120,9198,8994,97.8
+2,Lower Bowl,Single Game,200,160,300,4354,4166,95.7
+2,Upper Bowl,Single Game,80,64,120,8658,8536,98.6
+3,Lower Bowl,Single Game,200,160,300,5132,4899,95.5
+3,Upper Bowl,Single Game,80,64,120,10041,9941,99
+4,Lower Bowl,Single Game,200,160,300,4338,4189,96.6
+4,Upper Bowl,Single Game,80,64,120,9190,9021,98.2
+5,Lower Bowl,Single Game,200,160,300,4748,4524,95.3
+5,Upper Bowl,Single Game,80,64,120,8922,8718,97.7
+6,Lower Bowl,Single Game,200,160,300,4266,4146,97.2
+6,Upper Bowl,Single Game,80,64,120,8169,8025,98.2
+7,Lower Bowl,Single Game,200,160,300,5236,4952,94.6
+7,Upper Bowl,Single Game,80,64,120,8943,8737,97.7
+8,Lower Bowl,Single Game,200,160,300,5001,4725,94.5
+8,Upper Bowl,Single Game,80,64,120,9463,9267,97.9
+9,Lower Bowl,Single Game,200,160,300,4852,4703,96.9
+9,Upper Bowl,Single Game,80,64,120,9412,9115,96.8
+10,Lower Bowl,Single Game,200,160,300,4929,4737,96.1
+10,Upper Bowl,Single Game,80,64,120,8834,8616,97.5
