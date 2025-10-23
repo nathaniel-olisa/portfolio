@@ -39,6 +39,12 @@ I thrive at the intersection of **data storytelling** and **statistical rigor**,
 - Applied **Python** (pandas, nltk, vaderSentiment) for text processing and scoring.
 - Built visual dashboards and delivered recommendations for product and marketing teams.
 
+### 3️⃣ [🏀 Clippers Pricing & Attendance Analysis](./clippers-pricing-analysis/README.md)
+- Built a full **SQL + Tableau pipeline** to analyze LA Clippers’ **ticket pricing, attendance, and league revenue performance** for the 2024–25 season.
+- Created interactive dashboards showing **sell-through, revenue by opponent, and league benchmark comparisons**.
+- Tools: **MySQL**, **Tableau Public**, **Excel**
+- 🎯 [**View Live Dashboard on Tableau Public**](https://public.tableau.com/views/ClippersPricingAnalysisDashboard/ClippersTicketPricingAttendancePerformance202425?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ---
 
 ## 📬 Connect With Me  
