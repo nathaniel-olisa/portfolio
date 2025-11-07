@@ -43,14 +43,14 @@ I thrive at the intersection of **data storytelling** and **statistical rigor**,
 - Built a full **SQL + Tableau pipeline** to analyze LA Clippers’ **ticket pricing, attendance, and league revenue performance** for the 2024–25 season.
 - Created interactive dashboards showing **sell-through, revenue by opponent, and league benchmark comparisons**.
 - Tools: **MySQL**, **Tableau Public**, **Excel**
-- 🎯 [**View Live Dashboard on Tableau Public**](https://public.tableau.com/views/ClippersPricingAnalysisDashboard/ClippersTicketPricingAttendancePerformance202425?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [**View Live Dashboard on Tableau Public**](https://public.tableau.com/views/ClippersPricingAnalysisDashboard/ClippersTicketPricingAttendancePerformance202425?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-## 📬 Connect With Me  
+## Connect With Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathaniel777olisa)  
-📧 **Email:** nathanielolisa@gmail.com  
+**Email:** nathanielolisa@gmail.com  
 
 ---
 
-> 💡 *Explore the linked READMEs above for full methodologies, code samples, and example outputs.*
+> *Explore the linked READMEs above for full methodologies, code samples, and example outputs.*
