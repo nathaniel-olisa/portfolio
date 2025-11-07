@@ -1,11 +1,11 @@
-# 👋 Hi, I'm Nathaniel Olisa  
+# Hi, I'm Nathaniel Olisa  
 
-🎯 **Data Analyst | Economics & Finance**  
+ **Data Analyst | Economics & Finance**  
 Transforming raw data into actionable insights through statistical analysis, econometrics, and compelling visualizations.
 
 ---
 
-## 📖 About Me  
+## About Me  
 I’m a data analyst with a **B.A. in Economics (Minor in Finance)** in progress at California State University Long Beach, recognized with the **President’s Award (Spring 2025)**.  
 I have hands-on experience with **data cleaning, regression modeling, sentiment analysis, and market research** — applying these skills in both academic research and industry projects.  
 
@@ -13,7 +13,7 @@ I thrive at the intersection of **data storytelling** and **statistical rigor**,
 
 ---
 
-## 🛠️ Skills & Tools
+## Skills & Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
@@ -27,19 +27,19 @@ I thrive at the intersection of **data storytelling** and **statistical rigor**,
 
 ---
 
-## 📂 Featured Projects
+## Featured Projects
 
-### 1️⃣ [Earnings Analysis of Financial Specialists by Undergraduate Major](./earnings-analysis-econometrics/README.md)
+### 1. [Earnings Analysis of Financial Specialists by Undergraduate Major](./earnings-analysis-econometrics/README.md)
 - Econometric analysis using ACS data (2009–2013) to measure earnings differences by major.
 - Used **OLS regression** and **auxiliary regression** in **R** to control for omitted variable bias.
 - Visualized trends and differences using `ggplot2` boxplots and summary statistics.
 
-### 2️⃣ [Data Analytics Externship – Beats by Dre](./beats-by-dre-data-analytics/README.md)
+### 2. [Data Analytics Externship – Beats by Dre](./beats-by-dre-data-analytics/README.md)
 - Analyzed **4,000+ survey responses** and **5,000+ online reviews** for sentiment and feature analysis.
 - Applied **Python** (pandas, nltk, vaderSentiment) for text processing and scoring.
 - Built visual dashboards and delivered recommendations for product and marketing teams.
 
-### 3️⃣ [🏀 Clippers Pricing & Attendance Analysis](./clippers-pricing-analysis/README.md)
+### 3. [ Clippers Pricing & Attendance Analysis](./clippers-pricing-analysis/README.md)
 - Built a full **SQL + Tableau pipeline** to analyze LA Clippers’ **ticket pricing, attendance, and league revenue performance** for the 2024–25 season.
 - Created interactive dashboards showing **sell-through, revenue by opponent, and league benchmark comparisons**.
 - Tools: **MySQL**, **Tableau Public**, **Excel**
