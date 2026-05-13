@@ -1,12 +1,12 @@
 # Hi, I'm Nathaniel Olisa  
 
-**Data Analyst | Economics & Finance**  
+**Bussiness Intelligence Analyst | Economics & Finance**  
 Transforming raw data into actionable insights through statistical analysis, econometrics, forecasting, and compelling visualizations.
 
 ---
 
 ## About Me  
-I’m a data analyst with a **B.A. in Economics (Minor in Finance)** in progress at California State University Long Beach, recognized with the **President’s Award (Spring 2025)**.  
+I’m a data analyst with a **B.A. in Economics (Minor in Finance)** at California State University Long Beach, recognized with the **President’s Award**.  
 
 I have hands-on experience with **data cleaning, regression modeling, sentiment analysis, pricing analytics, forecasting, and market research** — applying these skills across both academic research and industry-focused projects.  
 
@@ -60,6 +60,11 @@ I thrive at the intersection of **data storytelling**, **business strategy**, an
 - Analyzed ACS, Zillow, and California labor market datasets to evaluate economic development trends and public policy outcomes.
 - Tools: **Economic Research**, **Public Data Analysis**, **Excel**
 
+### 7. [Nonprofit Communication Strategy Consulting – PwC x Extra Mile Foundation](./extra-mile-communication-strategy/README.md)
+- Developed communication and outreach strategy recommendations for nonprofit organizations through a PwC-sponsored consulting externship.
+- Conducted market research, stakeholder analysis, and social media strategy evaluation focused on fundraising, engagement, and inclusive communication initiatives.
+- Delivered strategic recommendations involving digital engagement, partnership development, and data-driven communication strategies.
+- Tools: **Market Research**, **Strategic Analysis**, **Communication Strategy**, **Presentation Development**
 ---
 
 ## Connect With Me  
