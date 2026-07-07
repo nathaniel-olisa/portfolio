@@ -1,20 +1,55 @@
-# Hi, I'm Nathaniel Olisa  
+# Hi, I'm Nathaniel Olisa 
 
-**Data Analyst | Economics & Finance**  
-Transforming raw data into actionable insights through statistical analysis, econometrics, forecasting, and compelling visualizations.
+**Aspiring Product Manager | Product Analytics | Economics & Finance**  
+Building user-focused products through data, strategy, and customer insights.
 
 ---
 
-## About Me  
-I’m a data analyst with a **B.A. in Economics and Minor in Finance from California State University Long Beach**, recognized with the **President’s Award**.  
+## About Me
 
-I have hands-on experience with **data cleaning, regression modeling, sentiment analysis, pricing analytics, forecasting, and market research** — applying these skills across both academic research and industry-focused projects.  
+I'm an aspiring Product Manager with a **B.A. in Economics** and a **Minor in Finance** from **California State University, Long Beach**, where I was recognized with the **President's Award**.
 
-I thrive at the intersection of **data storytelling**, **business strategy**, and **statistical rigor**, helping organizations make informed, data-driven decisions.
+My background combines analytics, economics, and business strategy to understand customer needs, evaluate opportunities, and support data-driven product decisions. Through academic, professional, and personal projects, I've developed experience in **product research, pricing analysis, market research, forecasting, customer insights, dashboard development, and data visualization**.
+
+I enjoy solving complex problems by combining data with user needs to build products that create meaningful value. I'm particularly interested in **product strategy, product analytics, user research, Agile product development, and cross-functional collaboration**.
+
+I'm currently expanding my product management skills through projects focused on **Agile methodologies, Jira, product roadmapping, product development, and customer discovery**, while continuing to strengthen my technical and analytical foundation.
 
 ---
 
 ## Skills & Tools
+
+### Product Management
+- Product Strategy
+- Product Analytics
+- Product Development
+- Product Roadmapping
+- User Research
+- Customer Insights
+- Market Research
+- Agile
+- Scrum
+- Jira
+
+### Data & Analytics
+- Python
+- R
+- SQL
+- Excel
+- Tableau
+- Pandas
+- NumPy
+- ggplot2
+- Regression Analysis
+- Forecasting
+- Data Visualization
+- Dashboard Development
+- Pricing Analytics
+- Statistical Analysis
+
+---
+
+## Technologies
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
@@ -24,7 +59,6 @@ I thrive at the intersection of **data storytelling**, **business strategy**, an
 ![ggplot2](https://img.shields.io/badge/ggplot2-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
 ---
 
 ## Featured Projects
